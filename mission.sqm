@@ -8,22 +8,22 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=1675;
+		nextID=1681;
 	};
 	class MarkerIDProvider
 	{
-		nextID=17;
+		nextID=18;
 	};
 	class LayerIndexProvider
 	{
-		nextID=169;
+		nextID=196;
 	};
 	class Camera
 	{
-		pos[]={7203.0757,105.13609,5517.1597};
-		dir[]={0.84887248,-0.52501839,-0.062044103};
-		up[]={0.52363026,0.85107827,-0.038272366};
-		aside[]={-0.072898455,2.0553125e-007,-0.99737591};
+		pos[]={7357.749,148.40778,4743.7632};
+		dir[]={0,-0.70710671,0.70710689};
+		up[]={0,0.70710683,0.70710665};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -281,6 +281,25 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -326,25 +345,6 @@ class CustomAttributes
 							};
 						};
 					};
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
 				};
 			};
 		};
@@ -402,7 +402,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=108;
+		items=111;
 		class Item0
 		{
 			dataType="Layer";
@@ -1838,7 +1838,7 @@ class Mission
 					};
 					id=1662;
 					type="Land_CampingChair_V1_F";
-					atlOffset=-0.00016784668;
+					atlOffset=-0.00016021729;
 				};
 				class Item17
 				{
@@ -1874,7 +1874,7 @@ class Mission
 					};
 					id=1664;
 					type="Land_CampingChair_V1_F";
-					atlOffset=-0.00016021729;
+					atlOffset=-0.00016784668;
 				};
 				class Item19
 				{
@@ -2136,7 +2136,7 @@ class Mission
 			name="Vehicle Tower #B";
 			class Entities
 			{
-				items=41;
+				items=43;
 				class Item0
 				{
 					dataType="Object";
@@ -2888,9 +2888,45 @@ class Mission
 					id=1454;
 					type="Land_HBarrier_3_F";
 				};
+				class Item41
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7527.1743,118.44727,4693.936};
+						angles[]={-0,6.1268883,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=1678;
+					type="CUP_A2_barels3";
+				};
+				class Item42
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7527.3379,118.44727,4692.311};
+						angles[]={-0,4.5912108,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=1679;
+					type="CUP_A2_barels3";
+				};
 			};
 			id=1106;
-			atlOffset=-0.24491119;
+			atlOffset=-0.16832733;
 		};
 		class Item11
 		{
@@ -3468,7 +3504,7 @@ class Mission
 			name="Sandbag Checkpoint (Net) #B";
 			class Entities
 			{
-				items=10;
+				items=11;
 				class Item0
 				{
 					dataType="Object";
@@ -3654,9 +3690,27 @@ class Mission
 					type="Land_BagFence_Round_F";
 					atlOffset=-7.6293945e-006;
 				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7524.6152,118.39008,4691.8569};
+						angles[]={-0,1.5707964,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=1680;
+					type="Land_PaperBox_closed_F";
+				};
 			};
 			id=1220;
-			atlOffset=-0.10179138;
+			atlOffset=0.47770691;
 		};
 		class Item26
 		{
@@ -5518,7 +5572,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7442.6201,116.1959,4746.7622};
-						angles[]={-0,0,6.2546773};
+						angles[]={0,0,6.2546773};
 					};
 					init="this setVariable ['tSF_EVC', 'Stryker'];";
 					id=1609;
@@ -6670,15 +6724,16 @@ class Mission
 						class Item1
 						{
 							dataType="Trigger";
-							position[]={8335.7354,133.40967,3711.8425};
-							angle=-0.76873398;
+							position[]={8433.7988,126.20702,3636.0525};
+							angle=5.4016371;
 							class Attributes
 							{
-								sizeA=4.640964;
+								sizeA=3.9810398;
 								sizeB=14.204895;
 							};
 							id=1616;
 							type="EmptyDetectorAreaR250";
+							atlOffset=-0.00042724609;
 						};
 						class Item2
 						{
@@ -6697,7 +6752,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={7559.2988,118.26802,4700.8955};
-								angles[]={-0,0,0.061270885};
+								angles[]={0,0,0.061270885};
 							};
 							id=1667;
 							type="LocationArea_F";
@@ -6715,11 +6770,11 @@ class Mission
 						};
 					};
 					id=1617;
-					atlOffset=-8.8109894;
+					atlOffset=-10.120667;
 				};
 			};
 			id=1517;
-			atlOffset=-16.438721;
+			atlOffset=-17.777924;
 		};
 		class Item81
 		{
@@ -7445,6 +7500,7 @@ class Mission
 					};
 					id=1592;
 					type="B_Soldier_F";
+					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7493,6 +7549,7 @@ class Mission
 			{
 			};
 			id=1591;
+			atlOffset=-7.6293945e-006;
 		};
 		class Item93
 		{
@@ -8010,7 +8067,7 @@ class Mission
 			};
 			id=1645;
 			type="CUP_B_M1135_ATGMV_Woodland";
-			atlOffset=0.019996643;
+			atlOffset=0.019989014;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8052,7 +8109,7 @@ class Mission
 			};
 			id=1650;
 			type="CUP_B_M1135_ATGMV_Woodland";
-			atlOffset=-0.017997742;
+			atlOffset=-0.018005371;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8205,6 +8262,39 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item108
+		{
+			dataType="Marker";
+			position[]={7680.6191,77.916,5318.7529};
+			name="marker_17";
+			text="Вражеский патруль";
+			type="mil_warning";
+			colorName="ColorWEST";
+			id=1675;
+			atlOffset=-2.1134644;
+		};
+		class Item109
+		{
+			dataType="Marker";
+			position[]={6806.3408,60.087002,4871.9448};
+			name="marker_18";
+			text="Вражеский патруль";
+			type="mil_warning";
+			colorName="ColorWEST";
+			id=1676;
+			atlOffset=1.7085648;
+		};
+		class Item110
+		{
+			dataType="Marker";
+			position[]={7977.7808,182.06,4228.0601};
+			name="marker_19";
+			text="Вражеский патруль";
+			type="mil_warning";
+			colorName="ColorWEST";
+			id=1677;
+			atlOffset=-2.170166;
 		};
 	};
 	class Connections

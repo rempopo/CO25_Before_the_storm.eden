@@ -84,7 +84,7 @@ cargo_kit_rus_cargo = [
 
 kit_rus_sl = [
 	["<EQUIPEMENT >>  ",rus_u,rus_v,"tf_mr3000_rhs","CUP_H_RUS_6B47_SF_headset",""],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_AK74M_railed","CUP_30Rnd_545x39_AK74M_M",["CUP_muzzle_TGPA","rhs_acc_perst3","CUP_optic_ACOG_TA31_KF_PIP",""]],
+	["<PRIMARY WEAPON >>  ","CUP_arifle_AK74M_railed","CUP_30Rnd_545x39_AK74M_M",["CUP_muzzle_TGPA","rhs_acc_perst3","CUP_optic_Elcan_SpecterDR_KF_black_PIP",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","hgun_Rook40_F","16Rnd_9x21_Mag",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
@@ -194,9 +194,7 @@ kit_rus_mm = [
 #define us_h ["rhsusf_ach_helmet_ESS_ocp","rhsusf_ach_helmet_ocp","rhsusf_ach_helmet_camo_ocp","rhsusf_ach_helmet_headset_ocp_alt"]
 #define us_g ["rhsusf_oakley_goggles_clr","rhs_googles_clear","CUP_G_ESS_CBR_Dark","CUP_G_Oakleys_Clr","CUP_G_Oakleys_Drk","CUP_G_Oakleys_Embr"]
 
-#define us_w_o ["rhsusf_acc_compm4","rhsusf_acc_eotech_552","CUP_optic_ACOG_PIP","CUP_optic_ACOG_TA31_KF","CUP_optic_CompM2_Black","rhsusf_ach_helmet_ESS_ocp"]
-#define us_w_h 
-#define us_w_l
+#define us_w_o ["rhsusf_acc_compm4","rhsusf_acc_eotech_552","CUP_optic_ACOG_PIP","CUP_optic_ACOG_TA31_KF","CUP_optic_CompM2_Black"]
 
 #define us_w_r ["CUP_arifle_M4A1_black","CUP_arifle_M4A1_standard_black","CUP_arifle_M4A3_black"]
 #define us_a_r ["CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"]
